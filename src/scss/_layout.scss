@@ -1,15 +1,10 @@
 .container {
-  margin: 0 20px;
-  padding: 40px 20px;
+  margin: 0 1em;
+  padding: 2em 1em;
 
   @media (min-width: $small) {
-    margin: 0 80px;
-    padding: 40px 40px;
-  }
-
-  @media (min-width: $medium) {
-    margin: 0 160px;
-    padding: 40px 40px;
+    margin: 0 3em;
+    padding: 2em 2em;
   }
 }
 
