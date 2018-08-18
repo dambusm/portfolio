@@ -1,0 +1,25 @@
+.container {
+  margin: 0 20px;
+  padding: 40px 20px;
+
+  @media (min-width: $small) {
+    margin: 0 80px;
+    padding: 40px 40px;
+  }
+
+  @media (min-width: $medium) {
+    margin: 0 160px;
+    padding: 40px 40px;
+  }
+}
+
+header,
+section.work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 50%;
+}
