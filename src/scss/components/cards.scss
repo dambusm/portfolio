@@ -1,0 +1,15 @@
+.card {
+  width: 100%;
+
+  @media (min-width: $small) {
+    width: calc(50% - 0.65em);
+    &:nth-of-type(odd) {
+      margin-right: 0.65em;
+    }
+    &:nth-of-type(even) {
+      margin-left: 0.65em;
+    }
+  }
+
+  border: 1px solid black;
+}
