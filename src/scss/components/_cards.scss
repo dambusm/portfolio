@@ -1,13 +1,15 @@
 .card {
   width: 100%;
+  min-height: 23em;
+  margin-bottom: $padding;
 
   @media (min-width: $small) {
-    width: calc(50% - 0.65em);
+    width: calc(50% - #{$padding-half});
     &:nth-of-type(odd) {
-      margin-right: 0.65em;
+      margin-right: $padding-half;
     }
     &:nth-of-type(even) {
-      margin-left: 0.65em;
+      margin-left: $padding-half;
     }
   }
 

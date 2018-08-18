@@ -8,13 +8,8 @@
   }
 }
 
-header,
 section.work {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.card {
-  width: 50%;
+  justify-content: flex-start;
 }

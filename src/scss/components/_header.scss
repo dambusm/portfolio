@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: $padding;
+  padding-bottom: $padding;
+  border-bottom: 1px solid $accent-color;
+}
+
+.about {
+  width: 100%;
+  @media (min-width: $small) {
+    width: calc(50% - #{$padding-half});
+  }
+}
+
+.site-logo {
+  height: 100px;
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
