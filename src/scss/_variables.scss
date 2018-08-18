@@ -14,8 +14,21 @@ $desktop: $medium;
 
 $primary-color: #375e97;
 $secondary-color: #3f681c;
+$font-color: #404040;
 $accent-color: #ffbb00;
 $link-color: $primary-color;
 $link-hover-color: darken($link-color, 15%);
 $highlight: #ffeea8;
 $danger: #fb6542;
+
+// -- Layout --- //
+
+$padding: 1.5em;
+$padding-half: 0.75em;
+
+// --- Fonts --- //
+
+$font-size: 1.1rem;
+$font-family: 'Work Sans', sans-serif, -apple-system, BlinkMacSystemFont,
+  Helvetica Neue, Helvetica, Arial, sans-serif;
+$line-height: 1.6;
