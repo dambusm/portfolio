@@ -1,0 +1,21 @@
+// --- Containers --- //
+
+$x-small: 600px;
+$small: 800px;
+$medium: 1000px;
+$large: 1200px;
+
+// --- Breakpoints --- //
+
+$mobile: $x-small;
+$desktop: $medium;
+
+// --- Colors --- //
+
+$primary-color: #375e97;
+$secondary-color: #3f681c;
+$accent-color: #ffbb00;
+$link-color: $primary-color;
+$link-hover-color: darken($link-color, 15%);
+$highlight: #ffeea8;
+$danger: #fb6542;
