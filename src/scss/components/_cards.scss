@@ -3,7 +3,7 @@
   margin-bottom: $padding;
   position: relative;
 
-  @media (min-width: $small) {
+  @media (min-width: $desktop) {
     width: calc(50% - #{$padding-half});
     &:nth-of-type(odd) {
       margin-right: $padding-half;
