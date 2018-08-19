@@ -1,10 +1,10 @@
 .container {
-  margin: 0 1em;
-  padding: 2em 1em;
+  margin: 0;
+  padding: $padding $padding;
 
   @media (min-width: $small) {
     margin: 0 3em;
-    padding: 2em 2em;
+    padding: $padding $padding * 2;
   }
 }
 
@@ -12,4 +12,6 @@ section.work {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  border-bottom: 1px solid $accent-color;
+  margin-bottom: $padding;
 }

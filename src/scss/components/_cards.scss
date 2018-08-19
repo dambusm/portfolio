@@ -1,7 +1,7 @@
 .card {
   width: 100%;
-  min-height: 23em;
   margin-bottom: $padding;
+  position: relative;
 
   @media (min-width: $small) {
     width: calc(50% - #{$padding-half});
@@ -13,5 +13,20 @@
     }
   }
 
-  border: 1px solid black;
+  img {
+    width: 100%;
+  }
+
+  figure {
+    line-height: 0;
+  }
+
+  figcaption {
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+    top: $padding-half * 0.75;
+    left: $padding-half;
+    padding-right: $padding;
+  }
 }
