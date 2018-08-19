@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   box-sizing: border-box;
 }
@@ -215,7 +216,7 @@ i {
     padding: 1.5em 1.5em;
   }
 }
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
   .container {
     margin: 0 3em;
     padding: 1.5em 3em;
@@ -235,7 +236,7 @@ section.work {
   margin-bottom: 1.5em;
   position: relative;
 }
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
   .card {
     width: calc(50% - 0.75em);
   }
@@ -253,15 +254,29 @@ section.work {
   }
   .card:nth-of-type(3) {
     order: 3;
+    margin-left: 0.75em;
+    margin-right: 0;
   }
   .card:nth-of-type(4) {
     order: 2;
+    margin-left: 0;
+    margin-right: 0.75em;
   }
   .card:nth-of-type(5) {
     order: 4;
   }
   .card:nth-of-type(6) {
     order: 5;
+  }
+  .card:nth-of-type(7) {
+    order: 7;
+    margin-left: 0.75em;
+    margin-right: 0;
+  }
+  .card:nth-of-type(8) {
+    order: 6;
+    margin-left: 0;
+    margin-right: 0.75em;
   }
 }
 .card img {
@@ -278,6 +293,9 @@ section.work {
   left: 0.75em;
   padding-right: 1.5em;
 }
+.card p {
+  margin-bottom: 0.75em;
+}
 
 .card-icons ul {
   display: flex;
@@ -289,6 +307,16 @@ section.work {
 }
 .card-icons li {
   display: inline;
+}
+
+.features {
+  margin-bottom: 1.5em;
+}
+.features li {
+  font-size: 0.9em;
+}
+.features li::before {
+  content: "￮ ";
 }
 
 ul {

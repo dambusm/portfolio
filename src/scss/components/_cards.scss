@@ -19,15 +19,29 @@
     }
     &:nth-of-type(3) {
       order: 3;
+      margin-left: $padding-half;
+      margin-right: 0;
     }
     &:nth-of-type(4) {
       order: 2;
+      margin-left: 0;
+      margin-right: $padding-half;
     }
     &:nth-of-type(5) {
       order: 4;
     }
     &:nth-of-type(6) {
       order: 5;
+    }
+    &:nth-of-type(7) {
+      order: 7;
+      margin-left: $padding-half;
+      margin-right: 0;
+    }
+    &:nth-of-type(8) {
+      order: 6;
+      margin-left: 0;
+      margin-right: $padding-half;
     }
   }
 
@@ -47,6 +61,10 @@
     left: $padding-half;
     padding-right: $padding;
   }
+
+  p {
+    margin-bottom: $padding-half;
+  }
 }
 
 .card-icons {
@@ -61,4 +79,15 @@
   li {
     display: inline;
   }
+}
+
+.features {
+  li {
+    font-size: 0.9em;
+    &::before {
+      content: '￮ ';
+    }
+  }
+
+  margin-bottom: $padding;
 }
