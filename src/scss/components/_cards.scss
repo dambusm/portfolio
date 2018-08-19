@@ -30,3 +30,17 @@
     padding-right: $padding;
   }
 }
+
+.card-icons {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  i {
+    font-size: $font-size * 3;
+  }
+  li {
+    display: inline;
+  }
+}
