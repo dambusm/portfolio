@@ -281,6 +281,7 @@ section.work {
 }
 .card img {
   width: 100%;
+  transition: all 0.3s;
 }
 .card figure {
   line-height: 0;
@@ -289,12 +290,25 @@ section.work {
   position: absolute;
   width: 100%;
   display: inline-block;
+  font-size: 1.5rem;
   top: 0.5625em;
   left: 0.75em;
   padding-right: 1.5em;
+  text-shadow: black 1px 0 10px;
 }
 .card p {
   margin-bottom: 0.75em;
+}
+.card a {
+  color: white;
+  opacity: 1;
+  transition: all 0.3s;
+}
+.card a:hover {
+  opacity: 0;
+}
+.card a:hover img {
+  border-radius: 10px;
 }
 
 .card-icons ul {
@@ -347,6 +361,14 @@ header {
 .site-logo img {
   width: 100px;
   height: 100px;
+  border-radius: 300px;
+}
+
+.resume h2 {
+  margin-bottom: 1.5em;
+}
+.resume p {
+  margin-bottom: 0.75em;
 }
 
 /*# sourceMappingURL=styles.css.map */

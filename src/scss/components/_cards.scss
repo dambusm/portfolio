@@ -47,6 +47,7 @@
 
   img {
     width: 100%;
+    transition: all 0.3s;
   }
 
   figure {
@@ -57,13 +58,28 @@
     position: absolute;
     width: 100%;
     display: inline-block;
+    font-size: 1.5rem;
     top: $padding-half * 0.75;
     left: $padding-half;
     padding-right: $padding;
+    text-shadow: black 1px 0 10px;
   }
 
   p {
     margin-bottom: $padding-half;
+  }
+
+  a {
+    color: white;
+    opacity: 1;
+    transition: all 0.3s;
+
+    &:hover {
+      opacity: 0;
+      img {
+        border-radius: 10px;
+      }
+    }
   }
 }
 

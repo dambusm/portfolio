@@ -16,12 +16,13 @@
 <body>
   <div class="container">
     <header>
-      <div class="site-logo"><img src='https://dummyimage.com/150x150.png' alt='Will Schaller photo' /></div>
+      <div class="site-logo"><img src='./dist/img/me.png' alt='Will Schaller photo' /></div>
       <div class="navigation">
         <ul>
-          <li><a data-scroll href="#work">Work</a></li>
-          <li><a data-scroll href="#resume">Resume</a></li>
-          <li><a href="#"><i class="fab fa-github"></i></a> <a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a data-scroll href="#work">Portfolio</a></li>
+          <li><a data-scroll href="#resume">About</a></li>
+          <li><a href="https://github.com/dambusm" target="_blank"><i class="fab fa-github"></i></a> <a href="https://www.linkedin.com/in/willschaller/"
+              target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
         </ul>
       </div>
       <div class="about">
@@ -31,8 +32,8 @@
     <section class="work" id="work">
       <div class="card">
         <a href="#">
-          <figcaption>Anim incididunt sunt voluptate exercitation.</figcaption>
-          <figure><img src='https://dummyimage.com/800x480.png' alt='' /></figure>
+          <figcaption>VidPad</figcaption>
+          <figure><img src='./dist/img/vidpad.png' alt='VidPad' /></figure>
         </a>
       </div>
       <div class="card">
@@ -63,8 +64,8 @@
       </div>
       <div class="card">
         <a href="#">
-          <figcaption>Dolore culpa proident consequat culpa adipisicing sit.</figcaption>
-          <figure><img src='https://dummyimage.com/800x480.png' alt='' /></figure>
+          <figcaption>Gigx</figcaption>
+          <figure><img src='./dist/img/gigx.png' alt='Gigx' /></figure>
         </a>
       </div>
       <div class="card">
@@ -105,6 +106,8 @@
           <ul class="features">
             <li>Google Cloud Compute Linux backend</li>
             <li>Backend builds Android APKs using bash scripts and Gradle</li>
+            <li>Not a backend I'm particularly proud of, I built this before knowing anything much about backend development.
+              Hacked together with shell scripts, but hey, it works!</li>
           </ul>
         </div>
         <div class="card-icons">
@@ -145,12 +148,23 @@
       </div>
     </section>
     <section class="resume" id="resume">
-      Officia incididunt occaecat cillum ad id id mollit proident ex cupidatat reprehenderit. Laborum et aliquip excepteur id labore.
-      Do commodo pariatur nostrud incididunt laboris incididunt.
+      <h2>About Will Schaller</h2>
+      <p>I am a 29 year old British / German junior full stack web developer with a passion for clean, organised code and
+        a focus on user experience.</p>
+      <p>Having previously worked as a software project manager in the embedded Linux industry, I always found the technical
+        side fascinating so decided to transition to a development position.</p>
+      <p>I have a BSc (hons) in Psychology from the University of York, an MSc in Strategic Project Management from Heriot-Watt
+        University, and I recently completed an intensive web development bootcamp at Ironhack Barcelona.</p>
+      <p>An avid traveller, having lived abroad much of my life, I recently visited my 40th country.</p>
+      <p>I speak English, Spanish, German and am currently learning Danish.</p>
+      <p><strong>Tech skills:</strong> HTML5, CSS3, JavaScript ES6, TypeScript, MongoDB, Express, Node.js, Angular 6, React,
+        Sass, jQuery, Git, Jira, Webpack, AWS, Google Cloud, Linux, Shell Scripting, Android, Agile
+      </p>
+      <p><a href="mailto:willschaller@gmail.com">willschaller@gmail.com</a></p>
     </section>
   </div>
-  <script src="dist/js/smooth-scroll.min.js"></script>
-  <script src="dist/js/smooth-scroll.polyfills.min.js"></script>
+  <script src="./dist/js/smooth-scroll.min.js"></script>
+  <script src="./dist/js/smooth-scroll.polyfills.min.js"></script>
   <script>
     const scroll = new SmoothScroll('a[href*="#"]');
   </script>
