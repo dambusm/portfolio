@@ -2,6 +2,7 @@ body {
   font: normal normal normal #{$font-size}/#{$line-height} $font-family;
   color: $font-color;
   font-size: $font-size;
+  line-height: $line-height;
 }
 
 h1,
@@ -23,4 +24,8 @@ a {
     color: $link-hover-color;
     text-decoration: underline;
   }
+}
+
+i {
+  font-size: $font-size * 1.5;
 }
