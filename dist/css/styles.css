@@ -1,0 +1,306 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+html {
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+* Remove default margin.
+*/
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+ ========================================================================== */
+/**
+* Correct `block` display not defined for any HTML5 element in IE 8/9.
+* Correct `block` display not defined for `details` or `summary` in IE 10/11
+* and Firefox.
+* Correct `block` display not defined for `main` in IE 11.
+*/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+* 1. Correct `inline-block` display not defined in IE 8/9.
+* 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+*/
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+* Prevent modern browsers from displaying `audio` without controls.
+* Remove excess height in iOS 5 devices.
+*/
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+* Address `[hidden]` styling not present in IE 8/9/10.
+* Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+*/
+[hidden],
+template {
+  display: none;
+}
+
+/**
+* Improve readability of focused elements when they are also in an
+* active/hover state.
+*/
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/**
+* Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+*/
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+* Prevent `sub` and `sup` affecting `line-height` in all browsers.
+*/
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+ ========================================================================== */
+/**
+* Remove border when inside `a` element in IE 8/9/10.
+*/
+img {
+  border: 0;
+}
+
+/**
+* Correct overflow not hidden in IE 9/10/11.
+*/
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/**
+* Address differences between Firefox and other browsers.
+*/
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+* Contain overflow in all browsers.
+*/
+pre {
+  overflow: auto;
+}
+
+/**
+* Re-set default cursor for disabled elements.
+*/
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+* Remove inner padding and border in Firefox 4+.
+*/
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+body {
+  font: normal normal normal 1.1rem/1.6 "Work Sans", sans-serif, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #404040;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #404040;
+}
+
+a {
+  color: #375e97;
+  text-decoration: none;
+}
+a:hover, a:active {
+  color: #233b5f;
+  text-decoration: underline;
+}
+
+i {
+  font-size: 1.65rem;
+}
+
+.container {
+  margin: 0;
+  padding: 1.5em 1.5em;
+}
+@media (min-width: 600px) {
+  .container {
+    margin: 0 1em;
+    padding: 1.5em 1.5em;
+  }
+}
+@media (min-width: 800px) {
+  .container {
+    margin: 0 3em;
+    padding: 1.5em 3em;
+  }
+}
+
+section.work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  border-bottom: 1px solid #ffbb00;
+  margin-bottom: 1.5em;
+}
+
+.card {
+  width: 100%;
+  margin-bottom: 1.5em;
+  position: relative;
+}
+@media (min-width: 800px) {
+  .card {
+    width: calc(50% - 0.75em);
+  }
+  .card:nth-of-type(odd) {
+    margin-right: 0.75em;
+  }
+  .card:nth-of-type(even) {
+    margin-left: 0.75em;
+  }
+}
+.card img {
+  width: 100%;
+}
+.card figure {
+  line-height: 0;
+}
+.card figcaption {
+  position: absolute;
+  width: 100%;
+  display: inline-block;
+  top: 0.5625em;
+  left: 0.75em;
+  padding-right: 1.5em;
+}
+
+.card-icons ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.card-icons i {
+  font-size: 3.3rem;
+}
+.card-icons li {
+  display: inline;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #ffbb00;
+}
+
+.about {
+  width: 100%;
+}
+@media (min-width: 800px) {
+  .about {
+    width: calc(50% - 0.75em);
+  }
+}
+
+.site-logo {
+  height: 100px;
+}
+.site-logo img {
+  width: 100px;
+  height: 100px;
+}
+
+/*# sourceMappingURL=styles.css.map */

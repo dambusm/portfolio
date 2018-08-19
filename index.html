@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Will Schaller - Portfolio</title>
-  <link rel="stylesheet" href="dist/styles.css">
+  <link rel="stylesheet" href="dist/css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
     crossorigin="anonymous">
@@ -19,8 +19,8 @@
       <div class="site-logo"><img src='https://dummyimage.com/150x150.png' alt='Will Schaller photo' /></div>
       <div class="navigation">
         <ul>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Resume</a></li>
+          <li><a data-scroll href="#work">Work</a></li>
+          <li><a data-scroll href="#resume">Resume</a></li>
           <li><a href="#"><i class="fab fa-github"></i></a> <a href="#"><i class="fab fa-linkedin-in"></i></a></li>
         </ul>
       </div>
@@ -28,7 +28,7 @@
         Magna proident ut mollit ex nulla ad non eu qui pariatur ad voluptate cillum excepteur.
       </div>
     </header>
-    <section class="work">
+    <section class="work" id="work">
       <div class="card">
         <a href="#">
           <figcaption>Anim incididunt sunt voluptate exercitation.</figcaption>
@@ -73,11 +73,16 @@
           et aliquip.</div>
       </div>
     </section>
-    <section class="resume">
+    <section class="resume" id="resume">
       Officia incididunt occaecat cillum ad id id mollit proident ex cupidatat reprehenderit. Laborum et aliquip excepteur id labore.
       Do commodo pariatur nostrud incididunt laboris incididunt.
     </section>
   </div>
+  <script src="dist/js/smooth-scroll.min.js"></script>
+  <script src="dist/js/smooth-scroll.polyfills.min.js"></script>
+  <script>
+    const scroll = new SmoothScroll('a[href*="#"]');
+  </script>
 </body>
 
 </html>
