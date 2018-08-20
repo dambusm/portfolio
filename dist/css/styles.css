@@ -208,6 +208,10 @@ i {
   font-size: 1.65rem;
 }
 
+body {
+  background-color: #fafeff;
+}
+
 .container {
   margin: 0;
   padding: 1.5em 1.5em;

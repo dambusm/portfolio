@@ -4,27 +4,24 @@
 @import './_variables';
 
 // --- Reset --- //
-
 @import './_reset';
 
 // --- Normalize --- //
 @import './_normalize';
 
 // --- Typography --- //
-
 @import './_typography';
 
+// --- Layout --- //
 @import './_layout';
 
 // --- Components --- //
-
 @import './components/_cards';
 @import './components/_lists';
 @import './components/_header';
 @import './components/_resume';
 
-// --- Pages overrides --- //
+// --- Page overrides --- //
 
 // --- Helpers --- //
-
 @import './_helpers';
