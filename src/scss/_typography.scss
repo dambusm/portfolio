@@ -19,10 +19,12 @@ h5 {
 a {
   color: $link-color;
   text-decoration: none;
+  transition: all 0.3s;
+  border-bottom: transparent solid 1px;
   &:hover,
   &:active {
     color: $link-hover-color;
-    text-decoration: underline;
+    border-bottom-color: $link-hover-color;
   }
 }
 

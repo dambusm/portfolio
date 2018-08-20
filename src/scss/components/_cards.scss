@@ -48,6 +48,7 @@
   img {
     width: 100%;
     transition: all 0.3s;
+    border-radius: 10px;
   }
 
   figure {
@@ -77,7 +78,8 @@
     &:hover {
       opacity: 0;
       img {
-        border-radius: 10px;
+        border-radius: 0px;
+        box-shadow: $link-hover-color 0px 0 4px;
       }
     }
   }
