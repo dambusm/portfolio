@@ -210,6 +210,26 @@ i {
 
 body {
   background-color: #fafeff;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+.bg-container {
+  content: attr(data-code);
+  color: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-family: monospace;
+  left: 0;
+  max-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  white-space: pre;
+  transform: rotate(-5deg);
+  left: 7.5em;
+  z-index: -1;
 }
 
 .container {
