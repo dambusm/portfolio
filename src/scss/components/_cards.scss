@@ -70,16 +70,18 @@
     margin-bottom: $padding-half;
   }
 
-  a {
-    color: white;
-    opacity: 1;
-    transition: all 0.3s;
+  &.card-screenshot {
+    a {
+      color: white;
+      opacity: 1;
+      transition: all 0.3s;
 
-    &:hover {
-      opacity: 0;
-      img {
-        border-radius: 0px;
-        box-shadow: $link-hover-color 0px 0 4px;
+      &:hover {
+        opacity: 0;
+        img {
+          border-radius: 0px;
+          box-shadow: $link-hover-color 0px 0 4px;
+        }
       }
     }
   }

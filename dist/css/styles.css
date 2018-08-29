@@ -312,15 +312,15 @@ section.resume {
 .card p {
   margin-bottom: 0.75em;
 }
-.card a {
+.card.card-screenshot a {
   color: white;
   opacity: 1;
   transition: all 0.3s;
 }
-.card a:hover {
+.card.card-screenshot a:hover {
   opacity: 0;
 }
-.card a:hover img {
+.card.card-screenshot a:hover img {
   border-radius: 0px;
   box-shadow: #233b5f 0px 0 4px;
 }
