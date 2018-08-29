@@ -72,7 +72,7 @@
 
   &.card-screenshot {
     border-radius: 10px;
-    transition: all 0.3s;
+    transition: box-shadow 0.3s, transform 0.3s;
     a {
       color: white;
     }
