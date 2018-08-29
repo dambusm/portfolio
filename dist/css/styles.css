@@ -350,12 +350,12 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 1.5em;
-  padding-bottom: 1.5em;
   border-bottom: 1px solid #ffbb00;
 }
 
 .about {
   width: 100%;
+  margin-bottom: 1.5em;
 }
 @media (min-width: 800px) {
   .about {
@@ -364,11 +364,12 @@ header {
 }
 
 .site-logo {
-  height: 100px;
+  height: 150px;
+  margin-bottom: 1.5em;
 }
 .site-logo img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 300px;
 }
 
