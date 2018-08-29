@@ -204,7 +204,8 @@ a:hover, a:active {
   border-bottom-color: #233b5f;
 }
 
-i {
+.fab,
+.devicon {
   font-size: 1.65rem;
 }
 
@@ -329,7 +330,7 @@ section.resume {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.card-icons i {
+.card-icons .devicon {
   font-size: 3.3rem;
 }
 .card-icons li {
