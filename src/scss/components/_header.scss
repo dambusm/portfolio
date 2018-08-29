@@ -3,22 +3,25 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: $padding;
-  padding-bottom: $padding;
   border-bottom: 1px solid $accent-color;
 }
 
 .about {
   width: 100%;
+  margin-bottom: $padding;
+
   @media (min-width: $small) {
     width: calc(50% - #{$padding-half});
   }
 }
 
 .site-logo {
-  height: 100px;
+  height: 150px;
+  margin-bottom: $padding;
+
   img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 300px;
   }
 }
