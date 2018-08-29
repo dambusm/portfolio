@@ -209,7 +209,7 @@ i {
 }
 
 body {
-  background-color: #fafeff;
+  background-color: #fbfbfb;
 }
 
 .container {
@@ -293,8 +293,8 @@ section.resume {
 }
 .card img {
   width: 100%;
-  transition: all 0.3s;
   border-radius: 10px;
+  transition: all 0.3s;
 }
 .card figure {
   line-height: 0;
@@ -307,22 +307,21 @@ section.resume {
   top: 0.5625em;
   left: 0.75em;
   padding-right: 1.5em;
-  text-shadow: black 1px 0 10px;
+  text-shadow: black 1px 1px 10px;
 }
 .card p {
   margin-bottom: 0.75em;
 }
-.card.card-screenshot a {
-  color: white;
-  opacity: 1;
+.card.card-screenshot {
+  border-radius: 10px;
   transition: all 0.3s;
 }
-.card.card-screenshot a:hover {
-  opacity: 0;
+.card.card-screenshot a {
+  color: white;
 }
-.card.card-screenshot a:hover img {
-  border-radius: 0px;
-  box-shadow: #233b5f 0px 0 4px;
+.card.card-screenshot:hover {
+  box-shadow: 0 8px 14px rgba(93, 93, 93, 0.274);
+  transform: translateY(-4px);
 }
 
 .card-icons ul {

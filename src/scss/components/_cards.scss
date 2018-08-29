@@ -47,8 +47,8 @@
 
   img {
     width: 100%;
-    transition: all 0.3s;
     border-radius: 10px;
+    transition: all 0.3s;
   }
 
   figure {
@@ -63,7 +63,7 @@
     top: $padding-half * 0.75;
     left: $padding-half;
     padding-right: $padding;
-    text-shadow: black 1px 0 10px;
+    text-shadow: black 1px 1px 10px;
   }
 
   p {
@@ -71,18 +71,14 @@
   }
 
   &.card-screenshot {
+    border-radius: 10px;
+    transition: all 0.3s;
     a {
       color: white;
-      opacity: 1;
-      transition: all 0.3s;
-
-      &:hover {
-        opacity: 0;
-        img {
-          border-radius: 0px;
-          box-shadow: $link-hover-color 0px 0 4px;
-        }
-      }
+    }
+    &:hover {
+      box-shadow: 0 8px 14px $shadow-color;
+      transform: translateY(-4px);
     }
   }
 }
