@@ -4,16 +4,16 @@ body {
 
 .container {
   margin: 0;
-  padding: $padding $padding;
+  padding: $padding-double $padding;
 
   @media (min-width: $mobile) {
     margin: 0 1em;
-    padding: $padding $padding;
+    padding: $padding-double $padding;
   }
 
   @media (min-width: $desktop) {
-    margin: 0 3em;
-    padding: $padding $padding * 2;
+    margin: 1.5em 3em;
+    padding: $padding-double $padding-double;
   }
 }
 

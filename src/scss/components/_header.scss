@@ -2,13 +2,14 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: $padding;
+  margin-bottom: $padding-double;
   border-bottom: 1px solid $accent-color;
 }
 
 .about {
   width: 100%;
   margin-bottom: $padding;
+  font-size: 2rem;
 
   @media (min-width: $small) {
     width: calc(50% - #{$padding-half});
@@ -17,7 +18,7 @@ header {
 
 .site-logo {
   height: 150px;
-  margin-bottom: $padding;
+  margin-bottom: $padding-double;
 
   img {
     width: 150px;

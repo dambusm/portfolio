@@ -214,18 +214,18 @@ body {
 
 .container {
   margin: 0;
-  padding: 1.5em 1.5em;
+  padding: 3em 1.5em;
 }
 @media (min-width: 600px) {
   .container {
     margin: 0 1em;
-    padding: 1.5em 1.5em;
+    padding: 3em 1.5em;
   }
 }
 @media (min-width: 1000px) {
   .container {
-    margin: 0 3em;
-    padding: 1.5em 3em;
+    margin: 1.5em 3em;
+    padding: 3em 3em;
   }
 }
 
@@ -355,13 +355,14 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 1.5em;
+  margin-bottom: 3em;
   border-bottom: 1px solid #ffbb00;
 }
 
 .about {
   width: 100%;
   margin-bottom: 1.5em;
+  font-size: 2rem;
 }
 @media (min-width: 800px) {
   .about {
@@ -371,7 +372,7 @@ header {
 
 .site-logo {
   height: 150px;
-  margin-bottom: 1.5em;
+  margin-bottom: 3em;
 }
 .site-logo img {
   width: 150px;
