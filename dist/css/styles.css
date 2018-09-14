@@ -315,6 +315,7 @@ section.resume {
 .card.card-screenshot {
   border-radius: 10px;
   transition: box-shadow 0.3s, transform 0.3s;
+  height: fit-content;
 }
 .card.card-screenshot a {
   color: white;
