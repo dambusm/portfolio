@@ -1,4 +1,3 @@
-@charset "UTF-8";
 html {
   box-sizing: border-box;
 }
@@ -342,9 +341,8 @@ section.resume {
 }
 .features li {
   font-size: 0.9em;
-}
-.features li::before {
-  content: "￮ ";
+  list-style-type: circle;
+  list-style-position: inside;
 }
 
 ul {

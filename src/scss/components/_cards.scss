@@ -100,9 +100,8 @@
 .features {
   li {
     font-size: 0.9em;
-    &::before {
-      content: '￮ ';
-    }
+    list-style-type: circle;
+    list-style-position: inside;
   }
 
   margin-bottom: $padding;
