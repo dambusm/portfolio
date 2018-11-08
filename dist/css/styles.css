@@ -314,6 +314,10 @@ section.resume {
   list-style-position: inside;
 }
 
+.source-link {
+  text-align: center;
+}
+
 ul {
   list-style: none;
 }
