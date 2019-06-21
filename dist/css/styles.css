@@ -229,18 +229,15 @@ body {
   }
 }
 
-section.work {
+section {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  border-bottom: 1px solid #ffbb00;
-  margin-bottom: 1.5em;
 }
 
 section.resume {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  border-bottom: 1px solid #ffbb00;
+  margin-bottom: 1.5em;
 }
 
 .card {

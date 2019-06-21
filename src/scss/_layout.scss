@@ -17,16 +17,13 @@ body {
   }
 }
 
-section.work {
+section {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  border-bottom: 1px solid $accent-color;
-  margin-bottom: $padding;
 }
 
 section.resume {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  border-bottom: 1px solid $accent-color;
+  margin-bottom: $padding;
 }
